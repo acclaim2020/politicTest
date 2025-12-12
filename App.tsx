@@ -79,7 +79,7 @@ const App: React.FC = () => {
       </main>
       
       <footer className="py-6 text-center text-gray-400 text-sm">
-        &copy; {new Date().getFullYear()} K-Politics Compass. Built with Gemini API.
+        &copy; {new Date().getFullYear()} K-Politics Compass.
       </footer>
     </div>
   );
