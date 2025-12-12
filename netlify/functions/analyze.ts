@@ -58,7 +58,8 @@ exports.handler = async (event) => {
         if (!apiKey) {
              return { statusCode: 500, body: JSON.stringify({ error: "API Key is missing." }) };
         }
-
+        console.log('API Key loaded:', !!process.env.GEMINI_API_KEY);
+        
         const ai = new GoogleGenAI({ apiKey });
 
         // Prepare a summary for the prompt
@@ -147,3 +148,4 @@ exports.handler = async (event) => {
         };
     }
 };
+
