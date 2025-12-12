@@ -1,0 +1,5 @@
+{
+  "name": "K-Politics Compass",
+  "description": "한국의 정치, 사회, 경제 이슈를 기반으로 한 30문항 정치 성향 테스트입니다. AI가 당신의 성향을 상세히 분석합니다.",
+  "requestFramePermissions": []
+}
