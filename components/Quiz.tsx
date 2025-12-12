@@ -51,7 +51,7 @@ export const Quiz: React.FC<QuizProps> = ({ onComplete }) => {
   );
 
   return (
-    <div className="max-w-2xl mx-auto px-6 py-8 w-full">
+    <div className="max-w-xl mx-auto px-6 py-8 w-full">
       {/* Progress Bar */}
       <div className="mb-8">
         <div className="flex justify-between text-xs font-semibold text-gray-500 mb-2">
